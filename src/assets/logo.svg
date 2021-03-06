@@ -1,0 +1,18 @@
+<svg width="480" height="139" xmlns="http://www.w3.org/2000/svg">
+ <style>.st0{fill:none}.st1{fill:#fff}.st2{font-family:Raleway; font-weight: 100;}.st6{fill:none;stroke:#000;stroke-width:3;stroke-miterlimit:10}</style>
+
+ <g>
+  <title>Layer 1</title>
+  <path d="m448.07,-1l-9.62,17.24l-8.36,14.96l-60.16,107.8l-370.93,0l0,-140l449.07,0z" id="svg_1"/>
+  <path class="st0" d="m-1,139l479.92,0l0,0.01l-479.92,0l0,-0.01z" id="svg_2"/>
+  <text class="st1 st2" font-size="57" y="56.233" x="16.99399" id="svg_3">Norbert</text>
+  <text class="st1 st2" font-size="54" y="112.015" x="17.692" id="svg_4">Development</text>
+  <path class="st0" d="m382.44,116.43l47.65,-85.23l8.36,-14.96m-68.62,122.76l-0.01,0.01l-7.82,13.99" id="svg_5"/>
+  <path d="m438.76,14.76l-56.42,100.91c-12.52,-10.83 -20.45,-26.82 -20.45,-44.67c0,-32.58 26.42,-59 59,-59c6.23,0 12.24,0.97 17.87,2.76z" fill="#00ff7f" id="svg_6"/>
+  <path d="m479.89,72c0,32.58 -26.42,59 -59,59c-14.73,0 -28.21,-5.4 -38.55,-14.33l56.42,-100.91c23.85,7.57 41.13,29.89 41.13,56.24z" id="svg_7"/>
+  <path class="st0" d="m457,-17l-8.93,16l-9.62,17.24l-8.36,14.96l-60.16,107.8l-0.01,0.01l-8.92,15.99" id="svg_8"/>
+  <path d="m438.76,14.76l-56.42,100.91c-12.52,-10.83 -20.45,-26.82 -20.45,-44.67c0,-32.58 26.42,-59 59,-59c6.23,0 12.24,0.97 17.87,2.76z" fill="#ffffff" id="svg_9"/>
+  <text fill="null" stroke="null" stroke-width="null" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" x="382.5" y="67" id="svg_10" font-size="20" font-family="sans-serif" text-anchor="start" xml:space="preserve" font-weight="bold">N</text>
+  <text style="cursor: move;" fill="#ffffff" stroke="null" stroke-width="null" stroke-dasharray="null" stroke-opacity="null" opacity="undefined" x="432.5" y="93" id="svg_11" font-size="20" font-family="sans-serif" text-anchor="start" xml:space="preserve">P</text>
+ </g>
+</svg>
