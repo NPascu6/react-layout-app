@@ -7,6 +7,10 @@ import Footer from './ui/Footer';
 import LandingPage from './LandingPage';
 import Services from './Services';
 import CustomSoftware from './CustomSoftware';
+import About from './About';
+import Contact from './Contact';
+import CustomMobile from './CustomMobile';
+import CustomWeb from './CustomWeb';
 
 const App = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -56,10 +60,50 @@ const App = () => {
               />
             )}
           />
-          <Route path="/mobiledevelopment" component={() => <div>Mobile apps</div>} />
-          <Route path="/customwebapplications" component={() => <div>Web apps</div>} />
-          <Route path="/about" component={() => <div>About</div>} />
-          <Route path="/contact" component={() => <div>Contact</div>} />
+          <Route
+            path="/mobiledevelopment"
+            render={(props) => (
+              <CustomMobile
+                // eslint-disable-next-line react/jsx-props-no-spreading
+                {...props}
+                setValue={setValue}
+                setSelectedIndex={setSelectedIndex}
+              />
+            )}
+          />
+          <Route
+            path="/customwebapplications"
+            render={(props) => (
+              <CustomWeb
+                // eslint-disable-next-line react/jsx-props-no-spreading
+                {...props}
+                setValue={setValue}
+                setSelectedIndex={setSelectedIndex}
+              />
+            )}
+          />
+          <Route
+            path="/about"
+            render={(props) => (
+              <About
+                // eslint-disable-next-line react/jsx-props-no-spreading
+                {...props}
+                setValue={setValue}
+                setSelectedIndex={setSelectedIndex}
+              />
+            )}
+          />
+          <Route
+            path="/contact"
+            render={(props) => (
+              <Contact
+                // eslint-disable-next-line react/jsx-props-no-spreading
+                {...props}
+                setValue={setValue}
+                setSelectedIndex={setSelectedIndex}
+              />
+            )}
+          />
           <Route path="/estimate" component={() => <div>Estimate</div>} />
         </Switch>
         <Footer

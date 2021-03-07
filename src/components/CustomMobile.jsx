@@ -35,7 +35,7 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
-const CustomSoftware = ({ setValue, setSelectedIndex }) => {
+const CustomMobile = ({ setValue, setSelectedIndex }) => {
   const classes = useStyles();
 
   const documentsOptions = {
@@ -62,19 +62,19 @@ const CustomSoftware = ({ setValue, setSelectedIndex }) => {
         <Grid item container direction="row" justify="center">
           <Grid item className={classes.arrowContainer}>
             <IconButton
-              onClick={() => { setValue(1); setSelectedIndex(0); }}
+              onClick={() => { setValue(1); setSelectedIndex(2); }}
               component={Link}
-              to="/services"
+              to="/customsoftware"
               style={{ backgroundColor: 'transparent' }}
             >
-              <img src={backArrow} alt="Back to Services Page" />
+              <img src={backArrow} alt="Back to Custom software Page" />
 
             </IconButton>
           </Grid>
           <Grid item container direction="column" className={classes.heading}>
             <Grid item>
               <Typography variant="h2">
-                Custom software development
+                Custom mobile development
               </Typography>
             </Grid>
             <Grid item>
@@ -102,12 +102,12 @@ const CustomSoftware = ({ setValue, setSelectedIndex }) => {
           </Grid>
           <Grid item className={classes.arrowContainer}>
             <IconButton
-              onClick={() => { setValue(1); setSelectedIndex(2); }}
+              onClick={() => { setValue(2); setSelectedIndex(5); }}
               component={Link}
-              to="/mobiledevelopment"
+              to="/customwebapplications"
               style={{ backgroundColor: 'transparent' }}
             >
-              <img src={forwardArrow} alt="Forward to IOS dev page" />
+              <img src={forwardArrow} alt="Forward to custom web page" />
             </IconButton>
           </Grid>
         </Grid>
@@ -150,36 +150,36 @@ const CustomSoftware = ({ setValue, setSelectedIndex }) => {
                 Digital documents and data.
               </Typography>
               <Typography variant="body1" paragraph>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less normal
+                Contrary to popular belief, Lorem Ipsum is not simply random text.
+                It has roots in a piece of classical Latin literature from 45 BC,
+                making it over 2000 years old. Richard McClintock, a Latin professor
+                at Hampden-Sydney College in Virginia, looked up one of the more obscure
+                Latin words, consectetur, from a Lorem Ipsum passage, and going through
+                the cites of the word in classical literature, discovered the undoubtable source.
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                distribution of letters, as opposed to using 'Content here, content
+                Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                here', making it look like readable English.
-                Many desktop publishing packages and web page
-                editors now use Lorem Ipsum as their default model text, and
+                Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
+                written in 45 BC. This book is a treatise on the theory of ethics,
+                very popular during the Renaissance. The first line of Lorem Ipsum,
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                a search for 'lorem ipsum' will uncover many web sites still
-                in their infancy. Various versions have evolved over the years,
-                sometimes by accident, sometimes on purpose (injected humour and the like).
+                "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
               </Typography>
               <Typography variant="body1" paragraph>
-                There are many variations of passages of Lorem Ipsum available, but the majority
-                have suffered alteration in some form, by injected humour, or randomised words
+                Contrary to popular belief, Lorem Ipsum is not simply random text.
+                It has roots in a piece of classical Latin literature from 45 BC,
+                making it over 2000 years old. Richard McClintock, a Latin professor
+                at Hampden-Sydney College in Virginia, looked up one of the more obscure
+                Latin words, consectetur, from a Lorem Ipsum passage, and going through
+                the cites of the word in classical literature, discovered the undoubtable source.
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                which don't look even slightly believable. If you are going to use a passage of
+                Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
-                middle of text. All the Lorem Ipsum generators on the Internet tend to repeat
+                Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
+                written in 45 BC. This book is a treatise on the theory of ethics,
+                very popular during the Renaissance. The first line of Lorem Ipsum,
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                predefined chunks as necessary, making this the first true generator on the
-                Internet.
-                It uses a dictionary of over 200 Latin words,
-                combined with a handful of model sentence structures, to generate Lorem Ipsum which
-                looks reasonable. The generated Lorem Ipsum is therefore always free from
-                repetition,
-                injected humour, or non-characteristic words etc.
+                "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
               </Typography>
             </Grid>
           </Grid>
@@ -201,24 +201,12 @@ const CustomSoftware = ({ setValue, setSelectedIndex }) => {
                 Scan.
               </Typography>
               <Typography variant="body1" paragraph>
-                Contrary to popular belief, Lorem Ipsum is not simply random text.
-                It has roots in a piece of classical Latin literature from 45 BC,
-                making it over 2000 years old. Richard McClintock, a Latin professor
-                at Hampden-Sydney College in Virginia, looked up one of the more obscure
-                Latin words, consectetur, from a Lorem Ipsum passage, and going through
-                the cites of the word in classical literature, discovered the undoubtable source.
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
-                {/* eslint-disable-next-line react/no-unescaped-entities */}
-                Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-                written in 45 BC. This book is a treatise on the theory of ethics,
-                very popular during the Renaissance. The first line of Lorem Ipsum,
-                {/* eslint-disable-next-line react/no-unescaped-entities */}
-                "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
+                are also reproduced in their exact original form, accompanied by English
+                versions from the 1914 translation by H. Rackham.
               </Typography>
               <Typography variant="body1" paragraph>
-                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below
-                for those interested.
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
                 Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
                 are also reproduced in their exact original form, accompanied by English
@@ -232,9 +220,9 @@ const CustomSoftware = ({ setValue, setSelectedIndex }) => {
   );
 };
 
-export default CustomSoftware;
+export default CustomMobile;
 
-CustomSoftware.propTypes = {
+CustomMobile.propTypes = {
   setSelectedIndex: PropTypes.func.isRequired,
   setValue: PropTypes.func.isRequired,
 };

@@ -75,4 +75,22 @@ export default createMuiTheme({
       color: norboGray,
     },
   },
+  overrides: {
+    MuiInputLabel: {
+      root: {
+        color: norboBlue,
+        fontSize: '1rem',
+      },
+    },
+    MuiInput: {
+      underline: {
+        '&:before': {
+          borderBottom: `2px solid ${norboBlue}`,
+        },
+        '&:hover:not($disabled):not($focused):not($error):before': {
+          borderBottom: `2px solid ${norboBlue}`,
+        },
+      },
+    },
+  },
 });
